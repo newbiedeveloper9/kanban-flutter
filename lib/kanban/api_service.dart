@@ -3,10 +3,10 @@ import 'package:http/http.dart' as http;
 import '../models.dart';
 
 class ApiService {
-  final String apiUrl = 'https://localhost:44314';
+  final String apiUrl = 'http://192.168.0.100:5000';
   final Map<String, String> headers = {
     "Authorization":
-        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImp0aSI6IjEyMGYxMjhlLWFiNGItNDBlMi1iZmJhLTg5YzgxN2E5ODMwYiIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwidWlkIjoiM2Y5YmY5ZWItN2EyNS00NWVlLTkxMmItYjFlMzA0MmFjMDMwIiwiaXAiOiIxNzIuMTcuMC4yIiwicm9sZXMiOlsiQWRtaW4iLCJNb2RlcmF0b3IiLCJCYXNpYyJdLCJleHAiOjE2OTE5NTA4NzksImlzcyI6IklkZW50aXR5IiwiYXVkIjoiSWRlbnRpdHlVc2VyIn0.86G7JDjRXiJo9sktDLea4du6jC5mjHd66CNnl5CfpZk",
+        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImp0aSI6ImM3Y2U1MDdkLWQzOTMtNDVmMC04YTBkLTk3MzM5OGI2OWMzMiIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwidWlkIjoiM2Y5YmY5ZWItN2EyNS00NWVlLTkxMmItYjFlMzA0MmFjMDMwIiwiaXAiOiIyNi4yNS4xNzEuMTgyIiwicm9sZXMiOlsiQWRtaW4iLCJNb2RlcmF0b3IiLCJCYXNpYyJdLCJleHAiOjE2OTIwMjg1MjksImlzcyI6IklkZW50aXR5IiwiYXVkIjoiSWRlbnRpdHlVc2VyIn0.ZEWzK8zUEbh1ZnSI_Tp0cc2Sh4awl8chw_2YpLAQLFM",
     "Content-Type": "application/json",
   };
 
